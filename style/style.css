@@ -1,0 +1,268 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #d0e1f9;
+}
+
+h2 {
+  padding: 20px;
+  color: white;
+  border-radius: 20px;
+  background-color: #004258;
+}
+
+/* Mengatur margin dan padding untuk memastikan tidak ada jarak di bagian atas */
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #004258;
+  padding: 10px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  margin: 10px 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+header {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.judul {
+  display: flex;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.judul .tanda {
+  background-color: #004258;
+  color: white;
+  padding: 15px;
+  width: 300px;
+  border-radius: 10px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.judul img {
+  width: 400px;
+}
+
+footer {
+  background-color: #004258;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-informasi {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-informasi h3 {
+  text-align: center;
+  width: auto;
+}
+
+.card-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card-informasi .card {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 300px;
+  height: 400px;
+  background-color: #e9f4ffc4;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.card-informasi .card p {
+  text-align: center;
+}
+
+.kemampuan-lulusan {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.kemampuan-lulusan .keterangan {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+}
+
+.kemampuan-lulusan .keterangan p {
+  letter-spacing: 1px;
+}
+
+.keterangan img {
+  width: 300px;
+  border-radius: 20px;
+  margin-right: 50px;
+}
+
+.cbt {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: white;
+  width: 100%;
+}
+
+.cbt p {
+  margin: 100px;
+  margin-top: 20px;
+}
+
+.gallery {
+  padding: 20px 0 20px 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  background-color: #d0e1f9;
+  width: 100%;
+}
+
+.gallery .card {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+.gallery .card .caption {
+  background-color: #004258; /* Dark background */
+  color: #fff; /* White text */
+  padding: 16px;
+  text-align: center;
+  height: 100px;
+}
+.gallery .card img {
+  width: 300px;
+  height: auto;
+}
+
+.card-galery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#contact {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  color: white;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#contact .text {
+  margin-bottom: 50px;
+}
+
+.card-sosmed {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+#contact .card {
+  background-color: #004258;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 20px;
+  display: flex;
+  width: 500px;
+  align-items: start;
+}
+
+#contact svg {
+  color: #d0e1f9;
+  margin-right: 20px;
+}
+
+@media (max-width: 1000px) {
+  .judul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+    margin-bottom: 100px;
+  }
+
+  .judul .text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  .kemampuan-lulusan .keterangan {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+
+  #contact .card {
+    width: 100%;
+  }
+}
